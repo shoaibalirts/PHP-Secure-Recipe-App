@@ -26,7 +26,7 @@ function e($value) {
 </form>
 
 <?php
-    include("pages/{$_GET['page']}.php");
+    echo file_get_contents("pages/{$_GET['page']}.html");
 ?>
 
 
